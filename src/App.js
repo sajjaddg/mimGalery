@@ -1,10 +1,11 @@
 import './App.css';
+import Calculator from './components/calculator/calculator';
 
 function App() {
   return (
-    <h1 className="text-3xl text-rose-500 underline">
-      Hello world!
-    </h1>
+   <div className='flex px-10 justify-center items-center min-h-screen bg-[#F5F5F5]'>
+      <Calculator/>
+   </div>
   );
 }
 
