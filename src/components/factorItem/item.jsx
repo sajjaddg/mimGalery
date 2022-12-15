@@ -1,21 +1,31 @@
-import { NumberFormatBase } from 'react-number-format';
+import { NumberFormatBase } from "react-number-format";
 
-const FactorItem = () => {
+const FactorItem = ({ title, details , value }) => {
   const _format = (val) => {
-   
-    return val.replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[d]);
+    
+    let val1 = val.substring(0,9).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return val1.replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[d]);
   };
   return (
     <div className="flex justify-between items-center">
       <div className="flex items-center space-x-1">
-        <span className='font-vazir'>تومان</span>
-        <NumberFormatBase thousandSeparator="," format={_format} className='font-vazir'  displayType="text" value={'12314432'} />
+        <span className="font-vazir text-[#e0e0e0]">تومان</span>
+        <NumberFormatBase
+          format={_format}
+          
+          className="font-vazir text-lg text-white"
+          displayType="text"
+          value={Math.round(value)}
+        />
       </div>
-      <div className='flex flex-col'>
-
+      <div className="flex flex-col items-end space-y-1  justify-center">
+        <span className="font-vazir text-white text-center">{title}</span>
+        <span className="font-vazir text-[#e0e0e0] text-xs text-right">
+          {details}
+        </span>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FactorItem
+export default FactorItem;

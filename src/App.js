@@ -3,9 +3,11 @@ import Calculator from './components/calculator/calculator';
 
 function App() {
   return (
-   <div className='flex px-10 justify-center items-center min-h-screen bg-[#F5F5F5]'>
-      <Calculator/>
-   </div>
+    <div className='flex px-4 justify-center items-center min-h-screen bg-gradient-to-b from-[#141E30] to-[#243B55]'>
+      <div className='m-auto max-w-md'>
+        <Calculator />
+      </div>
+    </div>
   );
 }
 
