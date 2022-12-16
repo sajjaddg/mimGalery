@@ -21,7 +21,7 @@
   ],
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "https://sajjaddg.github.io/mimGalery/",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
