@@ -30,7 +30,7 @@ const Factor = () => {
     ojrat,
   ]);
   return (
-    <div className="flex flex-col overflow-hidden space-y-4 p-4  bg-[#243B55] rounded-lg">
+    <div className="flex flex-col  space-y-4 p-4  bg-[#243B55] rounded-lg">
       <FactorItem
         title={": قیمت نهایی محصول"}
         value={finalPrice}

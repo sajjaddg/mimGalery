@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useState ,createContext} from "react";
 
 const FactorCnotext = createContext({
