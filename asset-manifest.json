@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/mimGalery/static/css/main.4fff89b9.css",
-    "main.js": "/mimGalery/static/js/main.877c7494.js",
+    "main.css": "/mimGalery/static/css/main.d8336800.css",
+    "main.js": "/mimGalery/static/js/main.828e6b8b.js",
     "static/media/Shabnam-Medium.ttf": "/mimGalery/static/media/Shabnam-Medium.3313d456fa9a8f23fcc4.ttf",
+    "service-worker.js": "/mimGalery/service-worker.js",
     "index.html": "/mimGalery/index.html",
-    "main.4fff89b9.css.map": "/mimGalery/static/css/main.4fff89b9.css.map",
-    "main.877c7494.js.map": "/mimGalery/static/js/main.877c7494.js.map"
+    "main.d8336800.css.map": "/mimGalery/static/css/main.d8336800.css.map",
+    "main.828e6b8b.js.map": "/mimGalery/static/js/main.828e6b8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fff89b9.css",
-    "static/js/main.877c7494.js"
+    "static/css/main.d8336800.css",
+    "static/js/main.828e6b8b.js"
   ]
 }
