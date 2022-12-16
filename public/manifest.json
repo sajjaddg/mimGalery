@@ -1,6 +1,8 @@
 {
   "short_name": "Mim Gold",
   "name": "Mim Gold Gallery",
+  "prefer_related_applications" : true,
+  
   "icons": [
     {
       "src": "maskable.png",
@@ -20,7 +22,7 @@
     }
   ],
   "display": "standalone",
-  "scope": "/",
+  "scope": ".",
   "start_url": "/mimGalery/",
   "theme_color": "#000000",
   "background_color": "#ffffff"
