@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mimGalery/static/css/main.a847a50b.css",
-    "main.js": "/mimGalery/static/js/main.a7223f75.js",
-    "static/media/Shabnam-Medium.ttf": "/mimGalery/static/media/Shabnam-Medium.3313d456fa9a8f23fcc4.ttf",
-    "service-worker.js": "/mimGalery/service-worker.js",
-    "index.html": "/mimGalery/index.html",
-    "main.a847a50b.css.map": "/mimGalery/static/css/main.a847a50b.css.map",
-    "main.a7223f75.js.map": "/mimGalery/static/js/main.a7223f75.js.map"
+    "main.css": "/mimGallery/static/css/main.46beb6db.css",
+    "main.js": "/mimGallery/static/js/main.1f13ae5c.js",
+    "static/media/Shabnam-Medium.ttf": "/mimGallery/static/media/Shabnam-Medium.3313d456fa9a8f23fcc4.ttf",
+    "service-worker.js": "/mimGallery/service-worker.js",
+    "index.html": "/mimGallery/index.html",
+    "main.46beb6db.css.map": "/mimGallery/static/css/main.46beb6db.css.map",
+    "main.1f13ae5c.js.map": "/mimGallery/static/js/main.1f13ae5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a847a50b.css",
-    "static/js/main.a7223f75.js"
+    "static/css/main.46beb6db.css",
+    "static/js/main.1f13ae5c.js"
   ]
 }
